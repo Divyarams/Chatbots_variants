@@ -6,6 +6,7 @@ from langchain.vectorstores import FAISS
 from langchain_ollama import OllamaEmbeddings
 from langchain.chains import RetrievalQA
 import os
+from langchain_core.chat_history import BaseChatMessageHistory
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.memory import ConversationBufferMemory
 from langchain.chains.conversation.memory import ConversationSummaryMemory
